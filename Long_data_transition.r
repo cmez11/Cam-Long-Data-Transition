@@ -28,5 +28,11 @@ for(i in x) {
 
 st %>% spread("Murder", "Frost", fill = NA, convert = FALSE)
 
+# To find the type of element in the vector 
+# where graduationsemester is the vector
+i = 0
+for(i in graduationsemester){
+  print(typeof(i))     # print type
+}
 
 
