@@ -30,7 +30,3 @@ st %>% spread("Murder", "Frost", fill = NA, convert = FALSE)
 
 
 
-
-
-# HELLO DO YOU SEE ME???????
-jdkwk
