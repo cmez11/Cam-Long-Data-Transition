@@ -35,4 +35,8 @@ for(i in graduationsemester){
   print(typeof(i))     # print type
 }
 
+# This line of code stores into mystemPer the data frame stemPer, minus the NA columns  
+# DOES NOT WORK FOR OUR DATA SET BUT IS COOL ANYWAY 
+mystemPer <- stemPer[,colSums(is.na(stemPer))<nrow(stemPer)]
+
 
